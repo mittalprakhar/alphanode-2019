@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+	<meta content="NONE,NOARCHIVE" name="robots"/>
+
+	<title>Dashboard | Alphanode 2019</title>
+	<link href="static/common/media/favicon.ico" rel="icon" type="image/png">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="static/main/css/common.css" rel="stylesheet">
+
+	<!--[if IE]>
+	<link rel="stylesheet" href="static/common/css/ie.css">
+	<![endif]-->
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" rel="stylesheet">
+	<link href="static/main/css/dashboard.css" rel="stylesheet">
+
+</head>
+
+<body class="" data-admin-utc-offset="0">
+	<div id="page_container-c">
+		<div id="view_container-c">
+
+			<div class="navbar-c transparent-light">
+				<div class="cross-c" onclick="navbarExpand()">
+					<span class="one-c"></span>
+					<span class="two-c"></span>
+					<span class="three-c"></span>
+				</div>
+				<div class="icons-c">
+					<a href="index.html">
+						<img class="logo-c" src="static/main/media/icons/nodelogo.png">
+					</a>
+				</div>
+				<div class="links-c">
+					<a class="nav-item-c" href="alphanode.html">Alphanode</a>
+					<a class="nav-item-c" href="team.html">Team</a>
+					<a class="nav-item-c" href="alumni.html">Alumni</a>
+					<a class="nav-item-c" href="archive.html">Archive</a>
+				</div>
+			</div>
+
+			<div id="form_container">
+				<div id="particles-js"></div>
+				<div class="dash">
+					<div class="col s12">
+
+						<div class="head-one"> Registration Details</div>
+
+						<ul class="tabs tabs-fixed-width">
+							<li class="tab col s6"><a href="#incharge">Incharges</a></li>
+							<li class="tab col s6"><a href="#onsite">Onsite Events</a></li>
+							<li class="tab col s6"><a href="#online">Online Events</a></li>
+						</ul>
+
+						<div class="col s12" id="incharge">
+							<form action="#" class="incharge" method="post">
+								<input name="csrfmiddlewaretoken" type="hidden"
+								       value="d0pkbQNLnZqWMJkSqmXX3yIOzKyYuBJNHZMP9UKaUd1e3t9SM8AGo74ITikzy8Zj">
+								<!---->
+								<div class="head-two"> Teacher Incharge</div>
+								<input name="teacher_name" placeholder="Name" type="text" value="">
+								<input name="teacher_email" placeholder="E-mail Address" type="email" value="">
+								<input name="teacher_number" placeholder="Phone Number" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> Student Incharge</div>
+								<input name="student_name" placeholder="Name" type="text" value="">
+								<input name="student_email" placeholder="E-mail Address" type="email" value="">
+								<input name="student_number" placeholder="Phone Number" type="text" value="">
+								<br><br>
+
+								<br>
+								<button type="submit">Update</button>
+								<br>
+							</form>
+						</div>
+
+						<div class="col s12" id="onsite">
+							<form action="#" class="onsite" method="post">
+								<input name="csrfmiddlewaretoken" type="hidden"
+								       value="d0pkbQNLnZqWMJkSqmXX3yIOzKyYuBJNHZMP9UKaUd1e3t9SM8AGo74ITikzy8Zj">
+								<!---->
+								<div class="head-two"> Create[x]</div>
+								<input name="createx_1" placeholder="Participant 1" type="text" value="">
+								<input name="createx_2" placeholder="Participant 2" type="text" value="">
+								<input name="createx_3" placeholder="Participant 3" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> RoboCTRL</div>
+								<input name="roboctrl_1" placeholder="Participant 1" type="text" value="">
+								<input name="roboctrl_2" placeholder="Participant 2" type="text" value="">
+								<input name="roboctrl_3" placeholder="Participant 3" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> Deprehendo</div>
+								<input name="deprehendo_1" placeholder="Participant 1" type="text" value="">
+								<input name="deprehendo_2" placeholder="Participant 2" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> Analogous</div>
+								<input name="analogous_1" placeholder="Participant 1" type="text" value="">
+								<input name="analogous_2" placeholder="Participant 2" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> Intellect</div>
+								<input name="intellect_1" placeholder="Participant 1" type="text" value="">
+								<input name="intellect_2" placeholder="Participant 2" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> PhotoBuild</div>
+								<input name="photobuild_1" placeholder="Participant 1" type="text" value="">
+								<input name="photobuild_2" placeholder="Participant 2" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> Geekathon</div>
+								<input name="geekathon_1" placeholder="Participant 1" type="text" value="">
+								<br><br>
+
+								<br>
+								<button type="submit">Update</button>
+								<br>
+							</form>
+						</div>
+
+						<div class="col s12" id="online">
+							<form action="#" class="online" method="post">
+								<input name="csrfmiddlewaretoken" type="hidden"
+								       value="d0pkbQNLnZqWMJkSqmXX3yIOzKyYuBJNHZMP9UKaUd1e3t9SM8AGo74ITikzy8Zj">
+								<!---->
+								<div class="head-two"> InFocus</div>
+								<input name="infocus_1" placeholder="Participant 1" type="text" value="">
+								<input name="infocus_2" placeholder="Participant 2" type="text" value="">
+								<br><br>
+
+								<div class="head-two"> MSway</div>
+								<input name="msway_1" placeholder="Participant 1" type="text" value="">
+								<input name="msway_2" placeholder="Participant 2" type="text" value="">
+								<br><br>
+
+								<br>
+								<button type="submit">Update</button>
+								<br>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="color footer-c">
+				<p style="text-align: center;">Made with
+					<img class="heart" src="static/main/media/icons/heart.svg">
+					by <span class="node-green">Node</span> <br>
+					Developed by
+					<a class="node-green" href="https://mittalprakhar.github.io" target="_blank"> Prakhar Mittal </a>
+					and
+					<a class="node-green" href="https://github.com/IshanManchanda" target="_blank"> Ishan Manchanda </a>
+				</p>
+				<div class="content-c">
+					<p class="intro">Network of Digital Enthusiasts<br><br>Delhi
+						Public School<br>Site No. 1, Urban Estate<br>Sector-45,
+						Gurgaon</p>
+					<div class="contact-details"><br>
+						<p class="contact"><a href="mailto:node@dpsgurgaon.org">node@dpsgurgaon.org</a>
+						</p>
+						<div class="links-c">
+							<a class="link" href="https://www.facebook.com/node.dps/" target="_blank">
+								<img class="icon" src="static/main/media/icons/facebook-light.png">
+								<p class="name">Facebook</p>
+							</a>
+							<a class="link" href="https://www.instagram.com/node.dps/" target="_blank">
+								<img class="icon" src="static/main/media/icons/instagram-light.png">
+								<p class="name">Instagram</p>
+							</a>
+							<a class="link" href="https://www.youtube.com/channel/UCNOnvJjMEGxr11RgSkcUV4g"
+							   target="_blank">
+								<img class="icon" src="static/main/media/icons/youtube-light.png">
+								<p class="name">YouTube</p>
+							</a>
+							<a class="link" href="https://www.behance.net/nodedps" target="_blank">
+								<img class="icon" src="static/main/media/icons/behance-light.png">
+								<p class="name">Behance</p>
+							</a>
+						</div>
+					</div>
+					<div id="gmap">
+						<iframe frameborder="0" height="100%" id="gmap_canvas"
+						        marginheight="0"
+						        marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=dps%2C%20sec-45%2C%20gurgaon&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%"></iframe>
+					</div>
+				</div>
+			</div>
+
+			<script src="static/main/js/navbar.js"></script>
+
+			<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+			<script>
+				particlesJS.load('particles-js',
+					function () {
+						console.log('');
+					});
+				particlesJS('particles-js', {
+					'particles': {
+						'number': {
+							'value': 60,
+							'density': {
+								'enable': true,
+								'value_area': 500,
+							},
+						},
+						'color': {
+							'value': '#FFFFFF',
+						},
+						'shape': {
+							'type': 'circle',
+							'stroke': {
+								'width': 0,
+								'color': '#FFFFFF',
+							},
+							'polygon': {
+								'nb_sides': 6,
+							},
+							'image': {
+								'src': 'img/github.svg',
+								'width': 100,
+								'height': 100,
+							},
+						},
+						'opacity': {
+							'value': 0.45,
+							'random': false,
+							'anim': {
+								'enable': false,
+								'speed': 1,
+								'opacity_min': 0.2,
+								'sync': false,
+							},
+						},
+						'size': {
+							'value': 3,
+							'random': true,
+							'anim': {
+								'enable': false,
+								'speed': 35,
+								'size_min': 0.1,
+								'sync': false,
+							},
+						},
+						'line_linked': {
+							'enable': true,
+							'distance': 150,
+							'color': '#FFFFFF',
+							'opacity': 0.3,
+							'width': 1,
+						},
+						'move': {
+							'enable': true,
+							'speed': 3,
+							'direction': 'none',
+							'random': false,
+							'straight': false,
+							'out_mode': 'out',
+							'bounce': false,
+							'attract': {
+								'enable': false,
+								'rotateX': 600,
+								'rotateY': 1200,
+							},
+						},
+					},
+					'interactivity': {
+						'detect_on': 'canvas',
+						'events': {
+							'onhover': {
+								'enable': true,
+								'mode': 'grab',
+							},
+							'onclick': {
+								'enable': true,
+								'mode': 'push',
+							},
+							'resize': true,
+						},
+						'modes': {
+							'grab': {
+								'distance': 200,
+								'line_linked': {
+									'opacity': 1,
+								},
+							},
+							'bubble': {
+								'distance': 400,
+								'size': 40,
+								'duration': 2,
+								'opacity': 8,
+								'speed': 3,
+							},
+							'repulse': {
+								'distance': 200,
+								'duration': 0.4,
+							},
+							'push': {
+								'particles_nb': 4,
+							},
+							'remove': {
+								'particles_nb': 2,
+							},
+						},
+					},
+					'retina_detect': true,
+				});
+				let count_particles, stats, update;
+				stats = new Stats;
+				stats.setMode(0);
+				stats.domElement.style.position = 'absolute';
+				stats.domElement.style.left = '0px';
+				stats.domElement.style.top = '0px';
+				document.body.appendChild(stats.domElement);
+				count_particles = document.querySelector('.js-count-particles');
+				update = function () {
+					stats.begin();
+					stats.end();
+					if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+						count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+					}
+					requestAnimationFrame(update);
+				};
+				requestAnimationFrame(update);
+			</script>
+
+		</div>
+	</div>
+</body>
+
+</html>
