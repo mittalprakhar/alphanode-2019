@@ -34,15 +34,15 @@
 					<span class="three-c"></span>
 				</div>
 				<div class="icons-c">
-					<a href="index.html">
+					<a href="/index">
 						<img class="logo-c" src="static/main/media/icons/nodelogo.png">
 					</a>
 				</div>
 				<div class="links-c">
-					<a class="nav-item-c" href="alphanode.html">Alphanode</a>
-					<a class="nav-item-c" href="team.html">Team</a>
-					<a class="nav-item-c" href="alumni.html">Alumni</a>
-					<a class="nav-item-c" href="archive.html">Archive</a>
+					<a class="nav-item-c" href="/alphanode">Alphanode</a>
+					<a class="nav-item-c" href="/team">Team</a>
+					<a class="nav-item-c" href="/alumni">Alumni</a>
+					<a class="nav-item-c" href="/archive">Archive</a>
 				</div>
 			</div>
 
@@ -60,7 +60,7 @@
 						</ul>
 
 						<div class="col s12" id="incharge">
-							<form action="" class="incharge" method="post">
+							<form name="inchargeForm" action="/dashboard#onsite" class="incharge" method="post" data-netlify="true">
 								<input name="csrfmiddlewaretoken" type="hidden"
 								       value="d0pkbQNLnZqWMJkSqmXX3yIOzKyYuBJNHZMP9UKaUd1e3t9SM8AGo74ITikzy8Zj">
 								<!---->
@@ -83,7 +83,7 @@
 						</div>
 
 						<div class="col s12" id="onsite">
-							<form action="" class="onsite" method="post">
+							<form name="onsiteForm" action="/dashboard#online" class="onsite" method="post" data-netlify="true">
 								<input name="csrfmiddlewaretoken" type="hidden"
 								       value="d0pkbQNLnZqWMJkSqmXX3yIOzKyYuBJNHZMP9UKaUd1e3t9SM8AGo74ITikzy8Zj">
 								<!---->
@@ -130,7 +130,7 @@
 						</div>
 
 						<div class="col s12" id="online">
-							<form action="" class="online" method="post">
+							<form name="onlineForm" action="/dashboard#incharge" class="online" method="post" data-netlify="true">
 								<input name="csrfmiddlewaretoken" type="hidden"
 								       value="d0pkbQNLnZqWMJkSqmXX3yIOzKyYuBJNHZMP9UKaUd1e3t9SM8AGo74ITikzy8Zj">
 								<!---->
